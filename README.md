@@ -14,7 +14,6 @@ Creare un file ``` README.md ``` in Blocco note, che sarà il readme file del re
 * Effettuare il login
 * Cliccare su ``` new ```
 
-
 ![](new.png)
 
 # Inserire immagini nel README.md
