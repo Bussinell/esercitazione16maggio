@@ -18,6 +18,16 @@ Creare un file ``` README.md ``` in Blocco note, che sarà il readme file del re
 * Creare un nuovo repository nome del file, prestando attenzione a non creare un Readme di default.
 
 ![](createNewRepository.png)![image](https://github.com/Bussinell/esercitazione16maggio/assets/131137596/64702f6b-275a-45a2-a3d5-65bfedf9ffeb)
+# Configurazione del repository locale e sincronizzazione
+Da ``` git-bash ``` eseguire i seguenti comandi:
+```
+git init  # Inizializza il repository locale
+git add README.md  # Inserimento del file README.md nell'area di staging
+git commit -m "first commit"  # Creazione del primo commit, che serve a sincronizzare il repository locale con lo stage
+git branch -M main  # Creazione del branch main, da usare come default
+git remote add origin https://github.com/<username>/Esercitazione16maggio  # Connessione del repository remoto al repository locale
+git push -u origin main  # Sincronizzazione del repository remoto con quello locale
+```
 
 # Inserire immagini nel README.md
 Aggiungere l'immagine ``` img.jpg ``` al progetto ed inserirla nel testo con il seguente comando: ``` ![](img.png) ```
