@@ -1,4 +1,10 @@
 # TUTORIAL
+
+# Creazione Progetto
+Creare una cartella per il progetto sul Desktop e chiamarla come si desidera. Su git-bash eseguire:
+```
+cd $HOME/path/to/<nome del file>
+```
 ``` git add ```
 ![](IMG_0965.png)
 
