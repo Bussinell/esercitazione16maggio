@@ -5,8 +5,17 @@ Creare una cartella per il progetto sul Desktop e chiamarla come si desidera. Su
 ```
 cd $HOME/path/to/<nome del file>
 ```
-``` git add ```
-![](IMG_0965.png)
+dove ``` path/to/ ``` rappresenta il percorso del file
+
+Creare un file ``` README.md ``` in Blocco note, che sarà il readme file del repository Git, e scrivere al suo interno la traccia dell'esercitazione indicata su Classroom. Salvare il file.
+
+#Creazione reopsitory su Github
+* aprire il sito github.com
+* Effettuare il login
+* Cliccare su ``` new ```
+
+
+![](new.png)
 
 # Inserire immagini nel README.md
 Aggiungere l'immagine ``` img.jpg ``` al progetto ed inserirla nel testo con il seguente comando: ``` ![](img.png) ```
