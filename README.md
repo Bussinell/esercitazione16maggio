@@ -52,6 +52,13 @@ git push https://<username>:<token>@github.com/<username>/<reponame>.git
 ```
 
 dove ``` <username> ``` è il vostro username, al posto di ``` <token> ``` bisogna inserire il token creato prima e ``` <reponame> ``` è il nome del repository sul quale si vuole effettuare il ``` push ``` (in questo caso, ``` <reponame> ``` è ``` Git-tutorial ```).
+
+# Aggiunta di nuovi file al repository
+1. Creare un nuovo file ``` main.c ``` nel workspace
+2. Implementare un programma che, dati in input 10 numeri positivi, trovi il massimo e lo visualizzi a video
+3. Aggiungere il nuovo file nell'area di staging
+4. Sincronizzare l'area di staging con il repository locale (usando un messaggio di commit congruo)
+5. Sincronizzare il repository remoto con quello locale
 # Inserire immagini nel README.md
 Aggiungere l'immagine ``` img.jpg ``` al progetto ed inserirla nel testo con il seguente comando: ``` ![](img.png) ```
 # Inserire sezioni
