@@ -28,7 +28,30 @@ git branch -M main  # Creazione del branch main, da usare come default
 git remote add origin https://github.com/<username>/Esercitazione16maggio  # Connessione del repository remoto al repository locale
 git push -u origin main  # Sincronizzazione del repository remoto con quello locale
 ```
+Nel caso in cui appaia questa finestra
 
+![](manager.png)![image](https://github.com/Bussinell/esercitazione16maggio/assets/131137596/6cc2ad3d-9501-4d33-ab09-2aa183b7fcaf)
+
+selezionare ``` manager-ui ```.
+
+Nel caso, invece, in cui il comando push non dovesse andare a buon fine a causa di problemi con l'autenticazione, è stato configurato un account globale, pertanto bisogna eseguire questi passi:
+
+* aprire il seguente link https://github.com/settings/tokens
+* generare un token mediante ``` Generate new token (classic) ```
+* confermare l'accesso inserendo la propria password, se richiesto
+* in Note inserire un messaggio come "token di accesso"
+* ``` Expiration ```: "No expiration"
+* In ``` Select scopes ``` spuntare la casella accanto a ``` repo ```, in modo tale da avere la situazione sottostante
+* generare il token e salvarlo in un file di testo
+
+![](token.png)![image](https://github.com/Bussinell/esercitazione16maggio/assets/131137596/5eee2666-4c26-432a-83e0-03fbb11b4a10)
+
+Dopodiché, eseguire nuovamente il comando ``` push ``` usando il seguente formato:
+```
+git push https://<username>:<token>@github.com/<username>/<reponame>.git
+```
+
+dove ``` <username> ``` è il vostro username, al posto di ``` <token> ``` bisogna inserire il token creato prima e ``` <reponame> ``` è il nome del repository sul quale si vuole effettuare il ``` push ``` (in questo caso, ``` <reponame> ``` è ``` Git-tutorial ```).
 # Inserire immagini nel README.md
 Aggiungere l'immagine ``` img.jpg ``` al progetto ed inserirla nel testo con il seguente comando: ``` ![](img.png) ```
 # Inserire sezioni
