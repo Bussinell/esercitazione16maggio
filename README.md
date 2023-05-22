@@ -66,4 +66,4 @@ Le sezioni possono essere create inserendo un ``` # ``` prima del titolo della s
 # Inserire codice e citazioni
 Il codice può essere inserito delimitandolo con tre backtick `.
 
-Le citazioni possono essere fatte aggiungendo > prima del testo.
+Le citazioni possono essere fatte aggiungendo ``` > ```prima del testo.
