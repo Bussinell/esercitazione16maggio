@@ -5,8 +5,8 @@ int main(){
 	int num = 0;
 	int i = 0;
 	for (i = 0; i < 10; i++){
-		printf("inserisci un numero positivo: ");
 		scanf("%d", num);
+		printf("inserisci un numero positivo: ");
 		vettore[i] = num;
 	}
 	int m = 0;
