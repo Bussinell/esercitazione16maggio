@@ -13,8 +13,7 @@ Creare un file ``` README.md ``` in Blocco note, che sarà il readme file del re
 * aprire il sito github.com
 * Effettuare il login
 * Cliccare su ``` new ```
-
-![](new.png)
+![image](https://github.com/Bussinell/esercitazione16maggio/assets/131137596/28e505da-9adc-47a1-9a0e-a9212c9d3dc1)
 
 # Inserire immagini nel README.md
 Aggiungere l'immagine ``` img.jpg ``` al progetto ed inserirla nel testo con il seguente comando: ``` ![](img.png) ```
