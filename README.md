@@ -9,7 +9,7 @@ dove ``` path/to/ ``` rappresenta il percorso del file
 
 Creare un file ``` README.md ``` in Blocco note, che sarà il readme file del repository Git, e scrivere al suo interno la traccia dell'esercitazione indicata su Classroom. Salvare il file.
 
-#Creazione reopsitory su Github
+# Creazione reopsitory su Github
 * aprire il sito github.com
 * Effettuare il login
 * Cliccare su ``` new ```
